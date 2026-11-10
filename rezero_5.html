@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re:Zero Fan Page</title>
+</head>
+<body>
+    <header>
+        <h1>⏳ RE:ZERO FAN PAGE</h1>
+        <p>Bắt đầu lại cuộc sống ở thế giới khác</p>
+        <nav>
+            <a href="#home">Trang chủ</a> |
+            <a href="#about">Giới thiệu</a> |
+            <a href="#media">Hình ảnh và Video</a> |
+            <a href="#characters">Nhân vật</a> |
+            <a href="#register">Đăng ký</a>
+        </nav>
+    </header>
+    <hr>
+    <section id="home">
+        <h2>Chào mừng đến với thế giới Re:Zero</h2>
+        <img src="dong-ho.svg" alt="Chiếc đồng hồ với mũi tên quay ngược, tượng trưng cho năng lực Return by Death" width="250">
+        <p>
+            Nếu có thể quay lại thời điểm trước khi mọi chuyện tồi tệ xảy ra, bạn có dám thử lại không?
+            Hãy cùng bước vào hành trình của Subaru.
+        </p>
+        <a href="#register">Tham gia câu lạc bộ ngay!</a>
+    </section>
+    <section id="about">
+        <h2>Giới thiệu Re:Zero</h2>
+        <p>
+            <strong>Re:Zero − Starting Life in Another World</strong> là bộ light novel của tác giả
+            <em>Tappei Nagatsuki</em>, được chuyển thể thành anime bởi studio <em>White Fox</em>.
+            <br>
+            Nhân vật chính Subaru Natsuki bất ngờ bị triệu hồi sang một thế giới khác và nhận ra
+            mình có năng lực <em>Return by Death</em>: mỗi lần chết, cậu quay lại một thời điểm
+            trước đó với ký ức còn nguyên.
+        </p>
+        <h3>Vì sao nên xem Re:Zero?</h3>
+        <ul>
+            <li>Cốt truyện kịch tính, nhiều bước ngoặt</li>
+            <li>Nhân vật có chiều sâu và nhiều cung bậc cảm xúc</li>
+            <li>Thế giới giả tưởng rộng lớn</li>
+        </ul>
+    </section>
+    <section id="media">
+        <h2>Hình ảnh và Video</h2>
+        <figure>
+            <img src="rem.jpg" alt="Rem tóc xanh, cài hoa và nơ hồng, mặc đồ hầu gái, nằm nghiêng trên bãi cỏ" width="300">
+            <figcaption>Fan art Rem nằm trên bãi cỏ.</figcaption>
+        </figure>
+        <h3>Video</h3>
+        <video width="500" controls src="video.mp4"></video>
+        <h3>Âm thanh</h3>
+        <p>Bài hát: <strong>Styx Helix</strong> - Myth &amp; Roid</p>
+        <audio controls src="nhac.mp3"></audio>
+    </section>
+    <section id="characters">
+        <h2>Nhân vật nổi bật</h2>
+        <table border="1" cellpadding="6">
+            <tr>
+                <th>Nhân vật</th>
+                <th>Giới thiệu ngắn</th>
+            </tr>
+            <tr>
+                <td>Subaru Natsuki</td>
+                <td>Nhân vật chính, sở hữu năng lực Return by Death</td>
+            </tr>
+            <tr>
+                <td>Emilia</td>
+                <td>Bán yêu tinh, ứng cử viên cho ngai vàng</td>
+            </tr>
+            <tr>
+                <td>Rem</td>
+                <td>Hầu gái tại dinh thự Roswaal</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>Chị gái của Rem, cũng là hầu gái</td>
+            </tr>
+            <tr>
+                <td>Beatrice</td>
+                <td>Tinh linh trông coi thư viện cấm</td>
+            </tr>
+            <tr>
+                <td>Puck</td>
+                <td>Tinh linh đồng hành cùng Emilia</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section id="register">
+        <h2>Đăng ký thành viên câu lạc bộ</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="fullname">Họ và tên:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </p>
+            <p>
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại">
+            </p>
+            <p>
+                <label for="birthday">Ngày sinh:</label><br>
+                <input type="date" id="birthday" name="birthday">
+            </p>
+            <fieldset>
+                <legend>Bạn đã xem Re:Zero chưa?</legend>
+                <input type="radio" id="da-xem" name="xem" value="da-xem" checked>
+                <label for="da-xem">Đã xem</label>
+                <input type="radio" id="dang-xem" name="xem" value="dang-xem">
+                <label for="dang-xem">Đang xem</label>
+                <input type="radio" id="chua-xem" name="xem" value="chua-xem">
+                <label for="chua-xem">Chưa xem</label>
+            </fieldset>
+            <fieldset>
+                <legend>Nhân vật bạn yêu thích:</legend>
+                <input type="checkbox" id="subaru" name="nhan_vat" value="subaru">
+                <label for="subaru">Subaru</label>
+                <input type="checkbox" id="emilia" name="nhan_vat" value="emilia">
+                <label for="emilia">Emilia</label>
+                <input type="checkbox" id="rem" name="nhan_vat" value="rem">
+                <label for="rem">Rem</label>
+                <input type="checkbox" id="ram" name="nhan_vat" value="ram">
+                <label for="ram">Ram</label>
+                <input type="checkbox" id="beatrice" name="nhan_vat" value="beatrice">
+                <label for="beatrice">Beatrice</label>
+            </fieldset>
+            <p>
+                <label for="mua">Bạn thích mùa nào nhất?</label><br>
+                <select id="mua" name="mua">
+                    <option value="mua-1">Mùa 1</option>
+                    <option value="mua-2">Mùa 2</option>
+                    <option value="mua-3">Mùa 3</option>
+                </select>
+            </p>
+            <p>
+                <label for="diem">Điểm yêu thích (1-10):</label><br>
+                <input type="number" id="diem" name="diem" min="1" max="10" value="10">
+            </p>
+            <p>
+                <label for="ly-do">Lý do tham gia:</label><br>
+                <textarea id="ly-do" name="ly_do" rows="5" cols="40" placeholder="Nhập lý do bạn muốn tham gia"></textarea>
+            </p>
+            <p>
+                <button type="submit">Đăng ký</button>
+                <button type="reset">Làm mới</button>
+            </p>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <h2>⏳ RE:ZERO FAN PAGE</h2>
+        <p>Cùng nhau bắt đầu lại từ con số không!</p>
+        <p>Email: sinhvien@example.com</p>
+        <p>&copy; 2026 Re:Zero Fan Page. Bài tập về nhà.</p>
+    </footer>
+</body>
+</html>
